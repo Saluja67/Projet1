@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>Home</title>
+        <title>connexion</title>
         <meta charset="utf-8">
         <meta name="description" content="">
     </head>
@@ -44,10 +44,10 @@
                 </form>  
                 
                 		<?php
-									if(isset($_POST['pass']) and isset($_POST['login']) and $_POST['login'] =='user'  and $_POST['pass'] == 'User;45852' )
+									if(isset($_POST['pass']) and isset($_POST['login'] )
 									
 									{
-										echo "Bon mot passe !";
+											for(
 									}
 									
 									elseif(isset($_POST['pass']) and isset($_POST['login']) and $_POST['login'] =='admin'  and $_POST['pass'] == 'Admin-9874' ){
