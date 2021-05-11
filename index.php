@@ -37,7 +37,7 @@
                             </td>
                             <td>
                                 <input type="submit"  value="se connecter!">
-								<button><a href="page1.html">inscription</a></button>
+								<button><a href="page1.php">inscription</a></button>
                             </td>
                         </tr>
                     </table>
@@ -53,7 +53,10 @@
 									$users[1]['email'] = 'admin@example.fr';
 									$users[2]['login'] = 'visiteur';
 									$users[2]['pass'] = '12345678';
-									$users[2]['email'] = 'visiteur@example.fr';			
+									$users[2]['email'] = 'visiteur@example.fr';
+									$users[3]['login'] = 'Ange';
+									$users[3]['pass'] = 'Angedu67';
+									$users[3]['email'] = 'Ange@Claire.fr';	
 									
 								
 										$compt=0;
@@ -63,7 +66,7 @@
 										
 										
 										
-										for($i=0; $i<3; $i++){
+										for($i=0; $i<4; $i++){
 											
 				
 											
@@ -86,28 +89,7 @@
 										}
 									}
 							
-									//~ }
-									
-									//~ elseif(isset($_POST['pass']) and isset($_POST['login']) and $_POST['login'] =='admin'  and $_POST['pass'] == 'Admin-9874' ){
-										
-										//~ echo "Bon mot de passe !";
-										
-									//~ }
-									
-									
-									//~ elseif(isset($_POST['pass']) and isset($_POST['login']) and $_POST['login'] =='visiteur'  and $_POST['pass'] == '12345678' )
-									
-									//~ {
-										//~ echo "Bon mot passe !";
-										
-									//~ }
 							
-									//~ else{
-																				
-										//~ echo "Mauvais mots de passe ou identifiant, veuillez rentrer vos informations";
-										
-									//~ }
-									
 							
 							
 									?>
