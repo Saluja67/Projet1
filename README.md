@@ -1,1 +1,0 @@
-Ce projet comporte 3 membres Yassine Hasina et Ange, ensemble nous allons travailler pour pouvoir faire une formulaire de connexion et d'inscription et le rendre agréable utiliser. 
